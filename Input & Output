@@ -1,0 +1,12 @@
+read -p "first" x
+read -p "second" y
+
+sum=$(( x + y ))
+difference=$(( x - y ))
+product=$(( x * y ))
+quotient=$(( x / y ))
+
+echo $sum
+echo $difference
+echo $product
+echo $quotient
